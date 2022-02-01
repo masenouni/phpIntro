@@ -22,7 +22,7 @@ echo "<br>";
 echo "<br>";
 
 //The if...elseif else statement
-$grade=80;
+$grade=90;
 if ($grade<=39){
     echo "you have failed";
 }elseif ($grade>=40 && $grade<=49){
@@ -37,10 +37,12 @@ if ($grade<=39){
     echo "Well done,You have passed and ";
     echo "<br>";
     echo "you got a Distinction 2";
-}else{
+}elseif($grade>=70 && $grade<=100){
     echo "Congratulations,you did well!";
     echo "<br>";
     echo "you got a Distinction 1";
+}else{
+    echo "Error because you printed out of range value";
 }
 echo "<br>";
 echo "<br>";
