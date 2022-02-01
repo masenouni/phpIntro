@@ -52,6 +52,9 @@ $num7=400;
 
 var_dump($num6>$num7);//greater
 
+echo "<br>";
+var_dump($num6!==$num7);
+
 
 
 
