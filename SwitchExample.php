@@ -1,5 +1,5 @@
 <?php
-$favCar="RangeRover";
+$favCar="Honda";
 
 switch ($favCar){
     case "Rolls_Royce":
